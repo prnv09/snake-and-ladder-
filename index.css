@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+}
+.container{
+margin: auto;
+position: relative;
+width: 414px;
+height: 500px;
+background: #000000;
+}
+#game-box{
+position: absolute;
+width: 414px;
+height: 247px;
+left: 0px;
+top: 90px;
+background: #8AB2FF;
+}
+#player1{
+position: absolute;
+width: 94px;
+height: 87px;
+left: 28px;
+top: 70px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#name1{
+   
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 20px;
+    top: 90px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    color: black;
+    text-align: center;
+}
+#score1{
+    font-size: x-large;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 30px;
+}
+
+#surprise{
+position: absolute;
+width: 87px;
+height: 146px;
+left: 164px;
+top: 50px;
+border-radius: 50%;
+background: #000000;
+}
+#snake{
+display: none;
+position: absolute;
+/* width: 87px;
+height: 146px; */
+left: 10px;
+top: 40px;
+animation: createBox 2s;
+}
+@keyframes createBox {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(2);
+    }
+  }
+#ladder{
+    display: none;
+    position: absolute;
+    width: 87px;
+    height: 146px;
+    left: 0px;
+    top: 0px; 
+    animation: createBox 1s;
+}
+#player2{   
+
+position: absolute;
+width: 94px;
+height: 87px;
+left: 294px;
+top: 70px;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#score2{
+    font-size: x-large;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    top: 30px;
+}
+#name2{
+color:black;
+position: absolute;
+width: 83px;
+height: 20px;
+left: 20px;
+top: 90px;
+text-align: center;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+}
+
+#dice{
+position: absolute;
+width: 117px;
+height: 89px;
+left: 100px;
+top: 350px;
+}
+#dice-score{
+    color: red;
+    position: absolute;
+    width: 117px;
+    height: 89px;
+    left: 250px;
+    top: 360px;
+    }
+#roll{
+  
+  color: wheat;
+  position: absolute;
+left: 108px;
+
+top: 420px;
+
+}
